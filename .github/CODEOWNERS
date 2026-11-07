@@ -1,0 +1,7 @@
+# Wslynllc/Chia-Farm-Tools.
+# The owner's tap (@rkroelin-yes) covers only what adds or deletes infrastructure, changes
+# permissions or deploys to production (Wslynllc/project-standards "Owner approval.md").
+# Nothing in this repository is applied to a live system or deployed, so only .github/
+# (workflows and this file, which control permissions) is owned. No default owner: every
+# other path is agent-reviewed and merges without a tap.
+/.github/ @rkroelin-yes
