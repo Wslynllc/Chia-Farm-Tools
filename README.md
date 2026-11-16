@@ -19,3 +19,10 @@ Make an online copy of the db without having to take your farmer down using sqli
 `sqlite3 /home/$(whoami)/.chia/mainnet/db/blockchain_v2_mainnet.sqlite "vacuum into '/home/$(whoami)/tmp/blockchain_v2_mainnet.sqlite'"`
 
 
+
+## Owner-maintained repository checks and approvals
+
+<!-- fork: local governance pointer; upstream documentation remains above. -->
+This is a fork of operational Chia and Linux/storage scripts. The default tree does not prove current owned deployment or permission to execute host commands. No automatic workflow or credential-free repository-wide runner is established. Treat storage/harvester/provisioning commands as operational instructions requiring their actual task authority; do not run them as CI.
+
+See [AGENTS.md](AGENTS.md) and the shared standards at `~/Project standards/README.md` and `Owner approval.md`. No settings, deployment or runtime acceptance is established by this documentation change.
